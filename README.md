@@ -3,7 +3,7 @@ A work-in-progress collection of games and other stuff made specifically for the
 Does not require modding or installing additional software.
 
 **Available at:**
-https://wolfyxon.github.io/3ds-web-stuff
+https://Tycho10101.github.io/3ds-web-stuff
 
 **Or scan the QR code to quickly launch the browser on your 3DS:**  
 ![QR code](.github/urlQr.png)
@@ -13,18 +13,18 @@ https://wolfyxon.github.io/3ds-web-stuff
 - [ ] in progress
 - Planned
 ### Games
-- [x] [Jumpy](https://wolfyxon.github.io/3ds-web-stuff/games/jumpy) - jump and avoid spikes. Based on the Chrome dinosaur game.
-- [x] [Tic Tac Toe](https://wolfyxon.github.io/3ds-web-stuff/games/ttt) - place X and O to make a pattern.
-- [x] [Pigeon](https://wolfyxon.github.io/3ds-web-stuff/games/pigeon) - fly between pipes avoiding them. Based on Flappy Bird
-- [ ] [Jet Fighter](https://wolfyxon.github.io/3ds-web-stuff/games/jetfighter) - Shoot em up game involving jets utilizing the both screens.
-- [x] [Pong](https://wolfyxon.github.io/3ds-web-stuff/games/pong) - Play ping-pong with an AI.
-- [x] [Minesweeper](https://wolfyxon.github.io/3ds-web-stuff/games/minesweeper) - Uncover tiles and watch out for the mines!
-- [ ] [Breakout](https://wolfyxon.github.io/3ds-web-stuff/games/breakout) - a Atari Breakout clone
-- [x] [Sudoku](https://wolfyxon.github.io/3ds-web-stuff/games/sudoku) - Fill the table with numbers
-- [x] [Connect 4](https://wolfyxon.github.io/3ds-web-stuff/games/connect4) - Connect 4 points
-- [x] [Hangman](https://wolfyxon.github.io/3ds-web-stuff/games/hangman) - Guess the word
-- [x] [Simon](https://wolfyxon.github.io/3ds-web-stuff/games/simon) - Remember the lights
-- [x] [Snake](https://wolfyxon.github.io/3ds-web-stuff/games/snake) - Eat apples to grow
+- [x] [Jumpy](https://Tycho10101.github.io/3ds-web-stuff/games/jumpy) - jump and avoid spikes. Based on the Chrome dinosaur game.
+- [x] [Tic Tac Toe](https://Tycho10101.github.io/3ds-web-stuff/games/ttt) - place X and O to make a pattern.
+- [x] [Pigeon](https://Tycho10101.github.io/3ds-web-stuff/games/pigeon) - fly between pipes avoiding them. Based on Flappy Bird
+- [ ] [Jet Fighter](https://Tycho10101.github.io/3ds-web-stuff/games/jetfighter) - Shoot em up game involving jets utilizing the both screens.
+- [x] [Pong](https://Tycho10101.github.io/3ds-web-stuff/games/pong) - Play ping-pong with an AI.
+- [x] [Minesweeper](https://Tycho10101.github.io/3ds-web-stuff/games/minesweeper) - Uncover tiles and watch out for the mines!
+- [ ] [Breakout](https://Tycho10101.github.io/3ds-web-stuff/games/breakout) - a Atari Breakout clone
+- [x] [Sudoku](https://Tycho10101.github.io/3ds-web-stuff/games/sudoku) - Fill the table with numbers
+- [x] [Connect 4](https://Tycho10101.github.io/3ds-web-stuff/games/connect4) - Connect 4 points
+- [x] [Hangman](https://Tycho10101.github.io/3ds-web-stuff/games/hangman) - Guess the word
+- [x] [Simon](https://Tycho10101.github.io/3ds-web-stuff/games/simon) - Remember the lights
+- [x] [Snake](https://Tycho10101.github.io/3ds-web-stuff/games/snake) - Eat apples to grow
 - Intercepter - take down the incoming missiles. Based on Missile Command
 - Clicker - a Cookie Clicker clone
 - Miner - a mining game where you dig in the earth in search of rare minerals you can then sell.
@@ -33,11 +33,11 @@ https://wolfyxon.github.io/3ds-web-stuff
 - Tanks and Cannons - Tower defense game about tanks and cannons.
 - Sans - Holy crap sand undertable. (Sans boss fight recreation from UNDERTALE by Toby Fox)
 ### Other
-- [x] [QR code generator](https://wolfyxon.github.io/3ds-web-stuff/other/qr) - turn text into a QR code.
-- [x] [Calculator](https://wolfyxon.github.io/3ds-web-stuff/other/calculator) - just a calculator.
-- [x] [Random number generator](https://wolfyxon.github.io/3ds-web-stuff/other/rand) - generate random numbers in a range
-- [x] [Hack](https://wolfyxon.github.io/3ds-web-stuff/other/hack) - very real hacking interface
-- [ ] [Brush](https://wolfyxon.github.io/3ds-web-stuff/other/brush) - basically a drawing app
+- [x] [QR code generator](https://Tycho10101.github.io/3ds-web-stuff/other/qr) - turn text into a QR code.
+- [x] [Calculator](https://Tycho10101.github.io/3ds-web-stuff/other/calculator) - just a calculator.
+- [x] [Random number generator](https://Tycho10101.github.io/3ds-web-stuff/other/rand) - generate random numbers in a range
+- [x] [Hack](https://Tycho10101.github.io/3ds-web-stuff/other/hack) - very real hacking interface
+- [ ] [Brush](https://Tycho10101.github.io/3ds-web-stuff/other/brush) - basically a drawing app
 - [ ] Weather app - a weather app utilizing the [OpenMeteo](https://open-meteo.com/) API
 - Timer
 - Barcode generator - turn text into a barcode.
@@ -66,7 +66,7 @@ Big thanks to https://www.3dbrew.org/ and https://en-americas-support.nintendo.c
 
 ### People
 - @Wolfyxon : programming, site design, sprites
-- @magiczocker10 : huge code improvements. Creator of [Minesweeper](https://wolfyxon.github.io/3ds-web-stuff/games/minesweeper), [Connect 4](https://wolfyxon.github.io/3ds-web-stuff/games/connect4), [Hangman](https://wolfyxon.github.io/3ds-web-stuff/games/hagman) and some other games. Screenshots.
+- @magiczocker10 : huge code improvements. Creator of [Minesweeper](https://Tycho10101.github.io/3ds-web-stuff/games/minesweeper), [Connect 4](https://Tycho10101.github.io/3ds-web-stuff/games/connect4), [Hangman](https://Tycho10101.github.io/3ds-web-stuff/games/hagman) and some other games. Screenshots.
 - @Trickiy : amazing game ideas and detailed bug reports
 - @iHeolity : testing
 
