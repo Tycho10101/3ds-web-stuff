@@ -15,7 +15,7 @@ https://Tycho10101.github.io/3ds-web-stuff
 ### Games
 - [x] [Jumpy](https://Tycho10101.github.io/3ds-web-stuff/games/jumpy) - jump and avoid spikes. Based on the Chrome dinosaur game.
 - [x] [Tic Tac Toe](https://Tycho10101.github.io/3ds-web-stuff/games/ttt) - place X and O to make a pattern.
-- [x] [Pigeon](https://Tycho10101.github.io/3ds-web-stuff/games/pigeon) - fly between pipes avoiding them. Based on Flappy Bird
+- [x] [~~Pigeon~~Flappy bird](https://Tycho10101.github.io/3ds-web-stuff/games/pigeon) - fly between pipes avoiding them. Based on Flappy Bird
 - [ ] [Jet Fighter](https://Tycho10101.github.io/3ds-web-stuff/games/jetfighter) - Shoot em up game involving jets utilizing the both screens.
 - [x] [Pong](https://Tycho10101.github.io/3ds-web-stuff/games/pong) - Play ping-pong with an AI.
 - [x] [Minesweeper](https://Tycho10101.github.io/3ds-web-stuff/games/minesweeper) - Uncover tiles and watch out for the mines!
