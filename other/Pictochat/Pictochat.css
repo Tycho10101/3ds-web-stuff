@@ -14,8 +14,13 @@ p {
     padding: 0;
 }
 
-#chart {
-    height: 70px;
-    width: 100%;
-    border: 1px solid black;
+.top-screen {
+  position: relative;
+  min-height: 217px;
+}
+
+.Chat {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
