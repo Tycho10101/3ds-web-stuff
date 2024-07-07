@@ -39,10 +39,10 @@ https://Tycho10101.github.io/3ds-web-stuff
 - [x] [Hack](https://Tycho10101.github.io/3ds-web-stuff/other/hack) - very real hacking interface
 - [ ] [Brush](https://Tycho10101.github.io/3ds-web-stuff/other/brush) - basically a drawing app
 - [ ] Weather app - a weather app utilizing the [OpenMeteo](https://open-meteo.com/) API
+- [ ] ~~Chat Room~~ Pictochat Web
 - Timer
 - Barcode generator - turn text into a barcode.
 - Unit converter - convert between units.
-- Chat Room
 
 ## Screenshots
 <p>
