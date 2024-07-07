@@ -31,3 +31,10 @@ function message() {
 	xhttp.send();
 	document.getElementById("input").innerHTML = usernameVar+':<input type="text" id="Text" placeholder="Message"><button onclick="message()">Send</button>';
 }
+
+function emoji(emojiData) {
+	if (usernameVar !== undefined) {
+		console.log(emojiData);
+		document.getElementById("input").innerHTML = usernameVar+':<input type="text" id="Text" placeholder="Message" value="'+document.getElementById("Text").value+emojiData+'"><button onclick="message()">Send</button>';
+	}
+}
