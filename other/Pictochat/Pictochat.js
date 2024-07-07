@@ -29,4 +29,5 @@ function message() {
 	};
 	xhttp.open("GET", "https://pictochat-web.glitch.me/send/"+usernameVar+"/"+document.getElementById("Text").value, true);
 	xhttp.send();
+	document.getElementById("input").innerHTML = usernameVar+':<input type="text" id="Text" placeholder="Message"><button onclick="message()">Send</button>';
 }
