@@ -24,3 +24,7 @@ p {
   bottom: 0;
   left: 0;
 }
+
+.keyboard {
+	text-align: center;
+}
