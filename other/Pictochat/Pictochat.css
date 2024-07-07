@@ -19,6 +19,10 @@ p {
   min-height: 217px;
 }
 
+.bottom-screen {
+  background-image: url('img/Background.png');
+}
+
 .Chat {
   position: absolute;
   bottom: 0;
