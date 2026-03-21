@@ -85,3 +85,22 @@
 #pointsY.current {
 	border-color: #ff0;
 }
+
+.dsi #input {
+	margin-top: 5px;
+}
+
+.dsi #points {
+	top: 66px;
+}
+
+.dsi #field {
+	margin-bottom: 5px;
+}
+
+.dsi #input th,
+.dsi #field td {
+	font-size: 9.75pt;
+	height: 14px;
+	width: 14px;
+}

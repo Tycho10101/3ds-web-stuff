@@ -63,3 +63,10 @@
 	border: 2px #ff0 solid;
 	border-radius: 10px;
 }
+
+.dsi #keyboard span {
+	font-size: 8.25pt;
+	height: 12px;
+	line-height: 9pt;
+	width: 12px;
+}

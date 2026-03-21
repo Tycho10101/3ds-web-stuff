@@ -60,7 +60,8 @@
 	vertical-align: top;
 }
 
-#numpad td, tr {
+#numpad td,
+#numpad tr {
 	height: 25%;
 }
 
@@ -85,7 +86,8 @@
 	height: 100%;
 }
 
-#operations tr, td {
+#operations tr,
+#operations td {
 	height: 25%;
 	width: 25%;
 }
@@ -107,4 +109,41 @@
 footer {
 	background-color: #343436;
 	height: 18%;
+}
+
+.dsi #numpad td,
+.dsi #numpad tr,
+.dsi #operations tr,
+.dsi #operations td {
+	font-size: 11.25pt;
+	height: 30px;
+}
+
+.dsi #toolbar button {
+	font-size: 8.25pt;
+	height: 20px;
+	line-height: 15px;
+}
+
+.dsi #numpad button,
+.dsi #operations button {
+	line-height: 24px;
+}
+
+.dsi #result {
+	font-size: 11.25pt;
+	height: 17px;
+	line-height: 17px;
+}
+
+.dsi #pads {
+	height: min-content;
+}
+
+.dsi #toolbar {
+	height: 20px;
+}
+
+.dsi #btn-backspace {
+	padding-top: 0;
 }

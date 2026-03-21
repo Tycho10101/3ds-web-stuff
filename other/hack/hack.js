@@ -27,20 +27,38 @@ const terminalTexts = [
 ];
 
 window.addEventListener('load', function() {
+	const ds = isDSi();
+	if ( ds ) {
+		document.getElementById( 'root' ).className = 'dsi';
+	}
 	const terminal = document.getElementById('terminal'),
 		numbers = document.getElementById('numbers'),
 		bars = document.getElementById('bars'),
 		canv = document.getElementById('tiles'),
+		scan = document.getElementById('scan'),
 		ctx = canv.getContext('2d', { alpha: false }),
 		termLength = terminalTexts.length,
 		barLength = 30,
-		cols = 6,
-		rows = 30;
+		cols = ds ? 2 : 6,
+		rows = ds ? 14 : 30,
+		tileRows = ds ? 15 : 16,
+		tileCols = ds ? 10 : 16,
+		barCount = ds ? 6 : 9,
+		echoCount = ds ? 6 : 16;
 	var terminalLength = 0,
 		barTxt = '',
 		newNum = '',
 		newBar = '',
 		oldTiles = [];
+
+	if ( ds ) {
+		scan.src = 'img/Radar DSi.gif';
+	} else {
+		scan.src = 'img/Radar 3DS.gif';
+	}
+
+	canv.height = 5 * tileRows - 2;
+	canv.width = 13 * tileCols - 2;
 
 	function ran(num) {
 		return Math.floor(Math.random() * num);
@@ -48,7 +66,7 @@ window.addEventListener('load', function() {
 
 	function echo() {
 		var v = terminal.value;
-		if (terminalLength < 16) {
+		if (terminalLength < echoCount) {
 			terminalLength++;
 		} else {
 			v = v.substring(v.match('\n').index + 2);			
@@ -57,8 +75,8 @@ window.addEventListener('load', function() {
 	}
 
 	function genTiles() {
-		for (var y=0; y<16; y++) {
-			for (var x=0; x<16; x++) {
+		for (var y=0; y<tileRows; y++) {
+			for (var x=0; x<tileCols; x++) {
 				const r = Math.random() < 0.5,
 					i = y*16+x;
 				if (oldTiles[i] !== r) {
@@ -72,8 +90,8 @@ window.addEventListener('load', function() {
 
 	function genBars() {
 		newBar = '';
-		for (var ln=0; ln<9; ln++) {
-			newBar += ln + " ) |" + barTxt.substring(0, ran(barLength)) + '\n';
+		for (var ln=0; ln<barCount; ln++) {
+			newBar += ln + " ) l" + barTxt.substring(0, ran(barLength)) + '\n';
 		}
 		bars.value = newBar;
 	}
@@ -91,7 +109,7 @@ window.addEventListener('load', function() {
 	}
 
 	for (var j=0; j<barLength; j++) {
-		barTxt += '|';
+		barTxt += 'l';
 	}
 
 	echo();

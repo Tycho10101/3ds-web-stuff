@@ -1,6 +1,12 @@
 window.addEventListener( 'load', function () {
-	const canv = document.getElementById( 'canvas' ),
-		ctx = canv.getContext( '2d', {
+	const canv = document.getElementById( 'canv' );
+	if ( isDSi() ) {
+		document.getElementById( 'root' ).className = 'dsi';
+		canv.height = '170';
+		canv.width = '240';
+	}
+
+	const ctx = canv.getContext( '2d', {
 			alpha: false,
 			willReadFrequently: true
 		} ),
@@ -51,11 +57,9 @@ window.addEventListener( 'load', function () {
 	}
 
 	function setStatus() {
-		start.disabled = false;
-		start.style.opacity = null;
+		start.className = '';
 		status.style.display = 'block';
-		gamemodeContainer.style.pointerEvents = null;
-		gamemodeContainer.style.opacity = null;
+		gamemodeContainer.className = '';
 		start.style.removeProperty( 'display' );
 		if ( lost ) {
 			status.style.color = 'red';
@@ -67,10 +71,11 @@ window.addEventListener( 'load', function () {
 	}
 
 	function reset() {
-		start.disabled = true;
-		start.style.opacity = '0.5';
-		gamemodeContainer.style.opacity = '0.5';
-		gamemodeContainer.style.pointerEvents = 'none';
+		if ( start.className === 'disabled' ) {
+			return;
+		}
+		start.className = 'disabled';
+		gamemodeContainer.className = 'disabled';
 		status.style.removeProperty( 'display' );
 		for ( var i = 0; i < snake.length; i++ ) {
 			drawBackground( snake[ i ][ 0 ], snake[ i ][ 1 ] );
@@ -265,12 +270,18 @@ window.addEventListener( 'load', function () {
 	document.getElementById( 'buttonRight' ).addEventListener( 'click', move, false );
 	start.addEventListener( 'click', reset, false );
 
-	btnDisableWalls.addEventListener( 'click', function () {
+	btnDisableWalls.addEventListener( 'click', function ( e ) {
+		if ( gamemodeContainer.className === 'disabled' ) {
+			return;
+		}
 		wrapfield = true;
 		updateGamemodes();
 	}, false );
 
-	btnEnableWalls.addEventListener( 'click', function () {
+	btnEnableWalls.addEventListener( 'click', function ( e ) {
+		if ( gamemodeContainer.className === 'disabled' ) {
+			return;
+		}
 		wrapfield = false;
 		updateGamemodes();
 	}, false );

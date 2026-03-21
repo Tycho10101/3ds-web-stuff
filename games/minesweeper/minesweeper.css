@@ -77,3 +77,13 @@
 .hidden {
 	display: none;
 }
+
+.dsi #top-screen h2,
+.dsi #stats {
+	font-size: 9.75pt;
+	width: 80%;
+}
+
+.dsi #buttons {
+	width: 20%;
+}
